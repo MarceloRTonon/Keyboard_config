@@ -1,13 +1,11 @@
 {
-    "type": "script",
-    "description": "page_down",
-    "store": {},
-    "modes": [
-        3
-    ],
-    "usageCount": 0,
+    "type": "phrase",
+    "description": "apostrofo3",
+    "modes": [],
+    "usageCount": 42,
     "prompt": false,
     "omitTrigger": false,
+    "matchCase": false,
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [],
@@ -18,13 +16,12 @@
         "wordChars": "[\\w]"
     },
     "hotkey": {
-        "modifiers": [
-            "<hyper>"
-        ],
-        "hotKey": "\u00e7"
+        "modifiers": [],
+        "hotKey": "<escape>"
     },
     "filter": {
         "regex": null,
         "isRecursive": false
-    }
+    },
+    "sendMode": "kb"
 }

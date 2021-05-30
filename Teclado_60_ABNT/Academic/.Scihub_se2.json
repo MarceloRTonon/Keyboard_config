@@ -1,10 +1,8 @@
 {
     "type": "script",
-    "description": "page_down",
+    "description": "Scihub_se2",
     "store": {},
-    "modes": [
-        3
-    ],
+    "modes": [],
     "usageCount": 0,
     "prompt": false,
     "omitTrigger": false,
@@ -21,7 +19,7 @@
         "modifiers": [
             "<hyper>"
         ],
-        "hotKey": "\u00e7"
+        "hotKey": "n"
     },
     "filter": {
         "regex": null,

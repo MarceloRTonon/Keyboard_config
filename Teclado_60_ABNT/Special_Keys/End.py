@@ -1,2 +1,2 @@
 # Enter script code
-keyboard.send_key("<end>")
+keyboard.send_keys("<end>")

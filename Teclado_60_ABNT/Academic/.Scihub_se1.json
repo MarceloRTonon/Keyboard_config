@@ -1,6 +1,6 @@
 {
     "type": "script",
-    "description": "page_down",
+    "description": "Scihub_se",
     "store": {},
     "modes": [
         3
@@ -21,7 +21,7 @@
         "modifiers": [
             "<hyper>"
         ],
-        "hotKey": "\u00e7"
+        "hotKey": "n"
     },
     "filter": {
         "regex": null,

@@ -1,13 +1,8 @@
 {
-    "type": "script",
-    "description": "page_down",
-    "store": {},
-    "modes": [
-        3
-    ],
+    "type": "folder",
+    "title": "aoe2_teclas",
+    "modes": [],
     "usageCount": 0,
-    "prompt": false,
-    "omitTrigger": false,
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [],
@@ -18,13 +13,11 @@
         "wordChars": "[\\w]"
     },
     "hotkey": {
-        "modifiers": [
-            "<hyper>"
-        ],
-        "hotKey": "\u00e7"
+        "modifiers": [],
+        "hotKey": null
     },
     "filter": {
-        "regex": null,
-        "isRecursive": false
+        "regex": "steam_app_813780.steam_app_813780",
+        "isRecursive": true
     }
 }

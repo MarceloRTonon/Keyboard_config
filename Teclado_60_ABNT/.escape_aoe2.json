@@ -1,11 +1,9 @@
 {
     "type": "script",
-    "description": "page_down",
+    "description": "escape_aoe2",
     "store": {},
-    "modes": [
-        3
-    ],
-    "usageCount": 0,
+    "modes": [],
+    "usageCount": 4,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
@@ -18,13 +16,11 @@
         "wordChars": "[\\w]"
     },
     "hotkey": {
-        "modifiers": [
-            "<hyper>"
-        ],
-        "hotKey": "\u00e7"
+        "modifiers": [],
+        "hotKey": "<escape>"
     },
     "filter": {
-        "regex": null,
+        "regex": "^((?!steam_app).)*$",
         "isRecursive": false
     }
 }

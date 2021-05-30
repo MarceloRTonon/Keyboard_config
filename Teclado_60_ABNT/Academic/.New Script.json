@@ -1,10 +1,8 @@
 {
     "type": "script",
-    "description": "page_down",
+    "description": "New Script",
     "store": {},
-    "modes": [
-        3
-    ],
+    "modes": [],
     "usageCount": 0,
     "prompt": false,
     "omitTrigger": false,
@@ -18,10 +16,8 @@
         "wordChars": "[\\w]"
     },
     "hotkey": {
-        "modifiers": [
-            "<hyper>"
-        ],
-        "hotKey": "\u00e7"
+        "modifiers": [],
+        "hotKey": null
     },
     "filter": {
         "regex": null,

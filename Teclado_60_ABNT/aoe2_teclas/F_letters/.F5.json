@@ -1,8 +1,10 @@
 {
     "type": "script",
-    "description": "teste",
+    "description": "F5",
     "store": {},
-    "modes": [],
+    "modes": [
+        3
+    ],
     "usageCount": 0,
     "prompt": false,
     "omitTrigger": false,
@@ -16,8 +18,10 @@
         "wordChars": "[\\w]"
     },
     "hotkey": {
-        "modifiers": [],
-        "hotKey": null
+        "modifiers": [
+            "<hyper>"
+        ],
+        "hotKey": "5"
     },
     "filter": {
         "regex": null,

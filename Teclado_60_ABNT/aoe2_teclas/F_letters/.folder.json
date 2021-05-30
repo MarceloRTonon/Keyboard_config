@@ -1,13 +1,8 @@
 {
-    "type": "script",
-    "description": "page_down",
-    "store": {},
-    "modes": [
-        3
-    ],
+    "type": "folder",
+    "title": "F_letters",
+    "modes": [],
     "usageCount": 0,
-    "prompt": false,
-    "omitTrigger": false,
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [],
@@ -18,10 +13,8 @@
         "wordChars": "[\\w]"
     },
     "hotkey": {
-        "modifiers": [
-            "<hyper>"
-        ],
-        "hotKey": "\u00e7"
+        "modifiers": [],
+        "hotKey": null
     },
     "filter": {
         "regex": null,
