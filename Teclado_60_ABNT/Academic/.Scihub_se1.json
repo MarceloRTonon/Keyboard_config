@@ -2,10 +2,8 @@
     "type": "script",
     "description": "Scihub_se",
     "store": {},
-    "modes": [
-        3
-    ],
-    "usageCount": 0,
+    "modes": [],
+    "usageCount": 8,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
