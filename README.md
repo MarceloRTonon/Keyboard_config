@@ -16,7 +16,7 @@ For now it has only the 60% format for ABNT (Brazilian Layout) and in Linux Auto
 
 # Sobre o OS
 
-Se você usa outro que não o Ubuntu pode ser que você precise de seguir outro caminho especialmente se o seu desktop for baseado em Qt e não em gtk, se tiver problemas, veja essa parte na [página]{https://github.com/autokey/autokey#installation} do repositório do Autokey ou na [wiki]{https://github.com/autokey/autokey/wiki/Installing} deles se precisar de algo bem detalhado.
+Se você usa outro que não o Ubuntu pode ser que você precise de seguir outro caminho especialmente se o seu desktop for baseado em Qt e não em gtk, se tiver problemas, veja essa parte na [página](https://github.com/autokey/autokey#installation) do repositório do Autokey ou na [wiki](https://github.com/autokey/autokey/wiki/Installing) deles se precisar de algo bem detalhado.
 
 **Além disso** algumas funções tem variantes específicas para `gtk` e para `Qt`! Nada que adicionar uma palavrinha aqui e ali não resolva.
 ## Preparando o PC
@@ -27,7 +27,7 @@ sudo apt-get update
 sudo apt-get install autokey-gtk
 ```
 
-Se o seu sistema tiver um `Qt-based desktop envinroment` vá na [wiki]{https://github.com/autokey/autokey/wiki/Installing}.
+Se o seu sistema tiver um `Qt-based desktop envinroment` vá na [wiki](https://github.com/autokey/autokey/wiki/Installing).
 
 
 
@@ -35,11 +35,11 @@ Se o seu sistema tiver um `Qt-based desktop envinroment` vá na [wiki]{https://g
 
 **ESSA PARTE É OPCIONAL, PORÉM RELEVANTE**
 
-Na minha configuração eu uso a todo momento a tecla `Hyper`, que não é configurada automaticamente no `Ubuntu` e em outras distros do Linux (no Windows é o `Ctrl` da direita), se você tá em dúvida se esse é o seu caso vale você fazer o teste. Aqui eu irei explicar como eu transformei o `CAPS LOCK` na tecla `Hyper` (e como faço então para travar em Caixa Alta). Se vocẽ não quiser usar a tecla `Hyper` no seus atalhos, tudo bem, você só irá precisar **alterar manualmente todos as configurações do meu código em relação à isso (pois uso e abuso da tecla `Hyper`)**. Se você quiser outra tecla como `Hyper` que não o `CAPS LOCK`, também fique a vontade. Se você até agora não faz ideia do que seja uma tecla `Hyper`, veja o parágrafo abaixo, ou [leia aqui]{https://askubuntu.com/questions/19558/what-are-the-meta-super-and-hyper-keys}. Se você sabe, pode até pular.
+Na minha configuração eu uso a todo momento a tecla `Hyper`, que não é configurada automaticamente no `Ubuntu` e em outras distros do Linux (no Windows é o `Ctrl` da direita), se você tá em dúvida se esse é o seu caso vale você fazer o teste. Aqui eu irei explicar como eu transformei o `CAPS LOCK` na tecla `Hyper` (e como faço então para travar em Caixa Alta). Se vocẽ não quiser usar a tecla `Hyper` no seus atalhos, tudo bem, você só irá precisar **alterar manualmente todos as configurações do meu código em relação à isso (pois uso e abuso da tecla `Hyper`)**. Se você quiser outra tecla como `Hyper` que não o `CAPS LOCK`, também fique a vontade. Se você até agora não faz ideia do que seja uma tecla `Hyper`, veja o parágrafo abaixo, ou [leia aqui](https://askubuntu.com/questions/19558/what-are-the-meta-super-and-hyper-keys). Se você sabe, pode até pular.
 
-O seu teclado tem várias teclas especiais, como `Control`, `Alt` e `Alt Gr`. Essas teclas fazem vocẽ acessar "camadas" diferentes do seu teclado. Igual aquela tecla de Função, `Fn`, que muitas vezes vocẽ ignora, mas te faz acessar funções de mídia, ou mesmo as teclas de navegação (`End`, `Home`, `Page Up` e `Page Down`). A chamada tecla "Windows" é no Linux referida como tecla `Super`. O que acontece então é que vamos modificar a tecla `CAPS LOCK` para ela funcionar como uma tecla `Hyper`. 
+O seu teclado tem várias teclas especiais, como `Control`, `Alt` e `Alt Gr`. Essas teclas fazem vocẽ acessar "camadas" diferentes do seu teclado. Igual aquela tecla de Função, `Fn`, que muitas vezes vocẽ ignora, mas te faz acessar funções de mídia, ou mesmo as teclas de navegação (`End`, `Home`, `Page Up` e `Page Down`). A chamada tecla "Windows" é no Linux referida como tecla `Super`. O que acontece então é que vamos modificar a tecla `CAPS LOCK` para ela funcionar como uma tecla `Hyper`.  Isso é algo que vocẽ deveria realmente fazer, mesmo se tiver um teclado convencional, pois usamos pouco o `CAPS LOCK` no dia a dia para travar  a caixa alta, e não iremos deixar essa funcionalidade a disposição, só que agora acessando-a ao pressionar as duas teclas `SHIFT`, esquerda e direita, ao mesmo tempo. Ou seja, vocẽ ganha uma tecla para usar no seu dia a dia, e ainda mantém a funcionalidade que ela tinha de outra forma.
 
-Para modificar o `CAPS LOCK` eu usei o Gnome Tweak tool, porém existem outras opções como o **Xmodmap** que é mais poderoso e direto pelo terminal (podendo talvez ser melhor para quem use arch?). Eu preferi o Gnome Tweak tool pois achei ele bem seguro e intuitivo e eu tenho medo de fazer muita merda. Pelo terminal você pode instala-lo num sistema Debian/Ubuntu fazendo:
+Para modificar o `CAPS LOCK` eu usei o Gnome Tweak tool, porém existem outras opções como o **Xmodmap** que é mais poderoso e direto pelo terminal (podendo talvez ser melhor para quem use arch?), porém com grandes poderes, vem grandes chances de cometer grandes erros. Eu preferi o Gnome Tweak tool pois achei ele bem seguro e intuitivo e eu tenho medo de fazer muita merda. Pelo terminal você pode instala-lo num sistema Debian/Ubuntu fazendo:
 
 ```console
 sudo apt-get install gnome-tweak tool
