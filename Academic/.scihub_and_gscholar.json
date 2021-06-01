@@ -1,11 +1,11 @@
 {
     "type": "script",
-    "description": "create_new.bib",
+    "description": "scihub_and_gscholar",
     "store": {},
     "modes": [
         3
     ],
-    "usageCount": 8,
+    "usageCount": 3,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
@@ -21,7 +21,7 @@
         "modifiers": [
             "<hyper>"
         ],
-        "hotKey": "h"
+        "hotKey": "m"
     },
     "filter": {
         "regex": null,
